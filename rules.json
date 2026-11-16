@@ -1,0 +1,29 @@
+
+{
+  "rules": [
+    {
+      "id": 1,
+      "name": "SQL Injection Pattern",
+      "pattern": "union select",
+      "severity": "HIGH"
+    },
+    {
+      "id": 2,
+      "name": "Cross-Site Scripting Pattern",
+      "pattern": "<script>",
+      "severity": "HIGH"
+    },
+    {
+      "id": 3,
+      "name": "Directory Traversal Pattern",
+      "pattern": "../",
+      "severity": "MEDIUM"
+    },
+    {
+      "id": 4,
+      "name": "Command Execution Pattern",
+      "pattern": "cmd.exe",
+      "severity": "HIGH"
+    }
+  ]
+}

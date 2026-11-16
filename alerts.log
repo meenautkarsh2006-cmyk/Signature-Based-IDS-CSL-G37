@@ -1,0 +1,4 @@
+[2026-11-16 17:49:48] [HIGH] SQL Injection Pattern | Source: 192.168.1.36 | Destination: 192.168.1.36 | Pattern: union select
+[2026-11-16 17:49:48] [HIGH] Cross-Site Scripting Pattern | Source: 192.168.1.36 | Destination: 192.168.1.36 | Pattern: <script>
+[2026-11-16 17:49:48] [MEDIUM] Directory Traversal Pattern | Source: 192.168.1.36 | Destination: 192.168.1.36 | Pattern: ../
+[2026-11-16 17:49:48] [HIGH] Command Execution Pattern | Source: 192.168.1.36 | Destination: 192.168.1.36 | Pattern: cmd.exe
